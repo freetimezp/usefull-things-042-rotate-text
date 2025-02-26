@@ -9,3 +9,50 @@
 a {
     text-decoration: none;
 }
+
+html, body {
+    width: 100%;
+    min-height: 4000px;
+    background: #161616;
+}
+
+.circular-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0);
+    font-size: 54px;
+    font-weight: bolder;
+    transition: .5s ease-out;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+}
+
+.arrow {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ion-icon {
+    font-size: 100px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
